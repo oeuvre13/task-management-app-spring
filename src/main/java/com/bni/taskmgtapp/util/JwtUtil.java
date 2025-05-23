@@ -10,7 +10,7 @@ import java.util.Base64;
 
 @Service
 public class JwtUtil {
-    private static final String SECRET = "ahhmbatukammmmmmambasinggggggambadablowwwwwuwoooooooghhhhhhhhh";
+    private static final String SECRET = "ahhhhhmbatukammmmmmambasinggggggambadablowwwwwuwoooooooghhhhhhhhh";
     private static final Key SIGNING_KEY = new SecretKeySpec(
             Base64.getDecoder().decode(SECRET),
             SignatureAlgorithm.HS256.getJcaName()
